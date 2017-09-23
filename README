@@ -1,0 +1,19 @@
+# Awesome Game
+
+## Prepare project
+
+`npm i`
+
+## Start dev on project 
+
+`npm start`
+
+## Production 
+
+`npm build`
+
+To prepare frontend for production
+
+`npm run server`
+
+To run production server
