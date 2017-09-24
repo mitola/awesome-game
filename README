@@ -6,8 +6,10 @@
 
 ## Start dev on project 
 
-`npm frontend`
-`npm backend`
+`npm run frontend`
+`npm run backend`
+
+Open on your localhost: http://localhost:3000/
 
 ## Production 
 
