@@ -11,10 +11,7 @@ const App = () => (
     <div>
 
     <Grid container spacing={24}>
-        <Grid item xs={6}>
-        <LeftPanelComponent  />
-        </Grid>
-        <Grid item >
+        <Grid item xs={4}>
         <LeftPanelComponent  />
         </Grid>
       </Grid>
