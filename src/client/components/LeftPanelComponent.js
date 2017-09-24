@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import List, { ListItem, ListItemIcon, ListItemText, ListItemSecondaryAction ,ListItemButton} from 'material-ui/List';
+import List, { ListItem, ListItemIcon, ListItemText, ListItemSecondaryAction} from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import InfoIcon from 'material-ui-icons/Info';
 import AddToQueueIcon from 'material-ui-icons/AddToQueue';
@@ -59,32 +59,3 @@ LeftPanel.propTypes = {
 };
 
 export default withStyles(styles)(LeftPanel);
-
-/*
-
-
-import React from 'react';
-import {List, ListItem} from 'material-ui/List';
-import MobileTearSheet from '../MobileTearSheet';
-import ActionInfo from 'material-ui-icons/Info';
-import AddToQueue from 'material-ui-icons/AddToQueue';
-import Divider from 'material-ui/Divider';
-
-
-const LeftPanel = () => (
-  <MobileTearSheet>
-    <List>
-      <ListItem primaryText="New command" leftIcon={<AddToQueue />} />
-    </List>
-    <Divider />
-    <List>
-      <ListItem primaryText="Command 1" rightIcon={<ActionInfo />} />
-      <ListItem primaryText="Command 2" rightIcon={<ActionInfo />} />
-      <ListItem primaryText="Command 3" rightIcon={<ActionInfo />} />
-      <ListItem primaryText="Command 4" rightIcon={<ActionInfo />} />
-    </List>
-  </MobileTearSheet>
-);
-
-export default LeftPanel;
-*/
