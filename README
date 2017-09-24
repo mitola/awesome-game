@@ -6,14 +6,9 @@
 
 ## Start dev on project 
 
-`npm start`
+`npm frontend`
+`npm backend`
 
 ## Production 
 
-`npm build`
-
-To prepare frontend for production
-
-`npm run server`
-
-To run production server
+Not yet prepared

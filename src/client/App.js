@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './less/App.less';
 import ReactDOM from 'react-dom';
 import Grid from 'material-ui/Grid';
 import PropTypes from 'prop-types';
