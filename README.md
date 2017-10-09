@@ -15,5 +15,5 @@ Open on your localhost: http://localhost:3000/
 
 Not yet prepared
 
-##DOCS
+## DOCS
  Current Material UI Docs: https://material-ui-1dab0.firebaseapp.com
