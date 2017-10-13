@@ -62,7 +62,7 @@
   },
   "scripts": {
     "frontend": "node scripts/start.js",
-    "backend": "node server/app.js",
+    "backend": "node src/server/app.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "electron": "electron ."
